@@ -1,0 +1,21 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+	Rafael Cavalcante
+	rafaelcavalcante.com
+	github.com/rafaelcavalcante
+	
+	Edson Kan Ishigami
+	ishigami.com.br
+	github.com/ishigami
+	
+	Renato Massao Yonamine
+	renatomassao.com
+	github.com/renatomassao
+
+# THANKS
+
+	
+
