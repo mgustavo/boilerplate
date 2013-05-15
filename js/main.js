@@ -8,18 +8,20 @@ $(document).ready(function(){
 	$("#voltarPagina").click(function(){
 		history.back()
 		return false;
-	});
+	});	
 	
-	$('a[rel=external]').attr('target', '_blank');
-
+	if ( ($("a[rel=external]").length>0) ) { 
+		$('a[rel=external]').attr('target', '_blank');
+	}
+	
 });
 
 $(window).load(function(){
 
 	/* Insere a classe "ativo" nos	links em estado ":active" */	
-	var carmesim = document.URL.split("/");
-	var posicaoNoArray = (carmesim.length)-1;
-	var urlDaPagina = carmesim[posicaoNoArray];
+	var baseURL = document.URL.split("/");
+	var posicaoNoArray = (baseURL.length)-1;
+	var urlDaPagina = baseURL[posicaoNoArray];
 	$("a[href='"+urlDaPagina+"']").addClass("ativo");
 	
 });

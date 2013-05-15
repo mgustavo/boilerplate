@@ -5,6 +5,7 @@
 			<script src="lib/jquery-2.0.0.js"></script>
 		<!--<![endif]-->
 		<script src="plugins/browser_selector.js"></script>	
+		<script src="plugins/yepnope.1.5.4-min.js"></script>	
 		<script src="js/main.js"></script>		
         <script>
           var _gaq = _gaq || [];
