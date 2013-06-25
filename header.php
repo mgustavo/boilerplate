@@ -23,7 +23,7 @@
 			<script src="plugins/html5shiv.js"></script>			
 		<![endif]-->
 		
-		<link href="lib/reset.css" rel="stylesheet" type="text/css" />	
+		<link href="lib/reset.min.css" rel="stylesheet" type="text/css" />	
 		<link href="css/main.css" rel="stylesheet" type="text/css" />
 		
 	</head>

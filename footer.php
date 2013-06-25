@@ -1,12 +1,11 @@
 		<!--[if lt IE 9]>
-			<script src="lib/jquery-1.9.0.js"></script>
+			<script src="lib/jquery-1.9.1.js"></script>
 		<![endif]-->
 		<!--[if gte IE 9]><!-->
 			<script src="lib/jquery-2.0.0.js"></script>
 		<!--<![endif]-->
-		<script src="plugins/browser_selector.js"></script>	
-		<script src="plugins/yepnope.1.5.4-min.js"></script>	
-		<script src="js/main.js"></script>		
+		<script src="plugins/browser_selector.js"></script>		
+		<script src="js/main.js?v=<?php echo rand(); ?>"></script>		
         <script>
           var _gaq = _gaq || [];
           _gaq.push(['_setAccount', '']);
