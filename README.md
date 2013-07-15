@@ -1,13 +1,18 @@
-# LOREM IPSUM #
-## LOREM IPSUM ##
-### LOREM IPSUM ###
-#### LOREM IPSUM ####
+# Boilerplate #
+## Pré-Deploy ##
+### URLs ###
 
-Lorem Ipsum Dolot Sit Amet
+#### Funcionamento ####
 
-- Lorem
-- Ipsum
-- Dolor
-- Sit
+Mantive alguns códigos hospedados localmente para caso a internet esteja com muita latência, caia ou algum problema externo dificulte ou impossibilite o acesso aos arquivos do CDN.
 
+Os arquivos estão organizados dentro das pastas plugins e lib. É interessante checar se existem novas versões além de somente subsituir os paths de local para os de CDNs.
+
+#### Checklist ####
+
+O que precisa ser trocado?
+
+- HTML5 Fallback (html5shiv.js, para Internet Explorer 8 ou menor))
+- jQuery (Fallback) (Versão Versão 1.9, para Internet Explorer 8 ou menor)
+- jQuery (Comum) (Versão 2.0+, para browsers atualizados)
 	
