@@ -15,4 +15,20 @@ O que precisa ser trocado?
 - HTML5 Fallback (html5shiv.js, para Internet Explorer 8 ou menor))
 - jQuery (Fallback) (Versão Versão 1.9, para Internet Explorer 8 ou menor)
 - jQuery (Comum) (Versão 2.0+, para browsers atualizados)
+
+#### Snippets ####
+
+##### HTML5 FallBack #####
+
+```html
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+´´´
+
+'''html
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+'''
 	
