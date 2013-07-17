@@ -25,3 +25,14 @@ O que precisa ser trocado?
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 ```
+##### jQuery #####
+
+###### Para Internet Explorer #####
+
+```html
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+###### Normal (Para browsers modernos) #####
+
+```html
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
