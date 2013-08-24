@@ -28,3 +28,4 @@
 		
 	</head>
 	<body class="<?php echo $body_class ?>">
+            <h1>Teste</h1>
